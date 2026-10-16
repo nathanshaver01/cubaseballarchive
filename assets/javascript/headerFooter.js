@@ -1,4 +1,5 @@
 const header = document.querySelector('#header');
+const footer = document.querySelector('#footer');
 
 window.addEventListener('load', function(){
     header.innerHTML = 
@@ -9,4 +10,8 @@ window.addEventListener('load', function(){
             <a href="">Link 2</a>
             <a href="">Link 3</a>
         </p>`;
+
+    footer.innerHTML = 
+        `<p>TBD Footer &copy</p>`;
+
 });
