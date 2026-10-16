@@ -1,1 +1,2 @@
-# The Archives of CU Boulder Baseball Project
+# cubaseballarchive
+The Archives of CU Baseball Project
