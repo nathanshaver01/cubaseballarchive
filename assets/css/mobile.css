@@ -13,6 +13,7 @@
     }
     #info-content h5{
         font-size: 10pt;
+        text-align: center;
     }
 }
 @media screen and (min-width: 451px) and (max-width:500px) {
@@ -34,6 +35,7 @@
     }
     #info-content h5{
         font-size: 10pt;
+        text-align: center;
     }
 }
 @media screen and (min-width: 370px) and (max-width:450px) {
@@ -55,6 +57,7 @@
     }
     #info-content h5{
         font-size: 9pt;
+        text-align: center;
     }
 }
 @media screen and (max-width: 369px){
@@ -76,5 +79,6 @@
     }
     #info-content h5{
         font-size: 8pt;
+        text-align: center;
     }
 }
