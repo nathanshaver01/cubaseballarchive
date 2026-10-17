@@ -9,7 +9,9 @@ body {font-family: 'Playfair Display', serif;}
         vertical-align: baseline;
         background: transparent;
     }
-
+img{
+    border: 0;
+}
 .headerImage {
     display: block;
     margin-left: auto;
@@ -152,10 +154,86 @@ body {font-family: 'Playfair Display', serif;}
 .year-banner{
     background-color:rgb(246,238,235)
 }
-#main-image {
+.main-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     image-rendering: auto;
     width: 100%;
+}
+#tab-content {
+    float: left;
+    padding: 0 10px;
+    max-width: 100%;
+    border-left: none;
+    height: 100%;
+    display: block;
+}
+.backnext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+#backnextbutton{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: rgb(246,238,235);
+    color: rgb(0, 0, 0);
+    margin: 5px;
+}
+#backnextbutton:hover { 
+    background-color: rgb(248, 243, 243); 
+    text-decoration: underline; 
+}
+#tab-content h2{
+    font-size:16pt;
+    margin:25px;
+}
+#tab-content h3{
+    margin: 10px;
+    font-size:12pt;
+}
+#headshotcontainer{
+    text-align:center;
+    margin:30px;
+}
+#headshotcontainer a{
+    margin:15px 20px auto;
+    display:inline-block;
+    font-size:10pt;
+    box-shadow: 2px 2px 2px 2px #ccc;
+}
+#headshotcontainer a:hover{
+    color: rgb(0, 0, 0);
+}
+.coachheadshot {
+    height: 150px; 
+}
+.caption {
+    padding: 3px;
+    text-align: center;
+}
+#table-roster{
+    margin: 0 auto;
+    width: 100%;
+}
+th:hover{
+    background-color:#f6f5f5;
+}
+#table-roster th:nth-child(1) {
+    text-align: left;
+}​
+#table-roster th{
+    text-align:center;
+}
+#table-roster td:nth-child(1) {
+  text-align: left;
+}
+#table-roster td{
+    text-align:center;
+}
+td:hover{
+    background-color:#f6f5f5;
 }

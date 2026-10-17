@@ -15,6 +15,9 @@
         font-size: 10pt;
         text-align: center;
     }
+    .coachheadshot {
+        height: 130px; 
+    }
 }
 @media screen and (min-width: 451px) and (max-width:500px) {
     .main-column {
@@ -36,6 +39,9 @@
     #info-content h5{
         font-size: 10pt;
         text-align: center;
+    }
+    .coachheadshot {
+        height: 120px; 
     }
 }
 @media screen and (min-width: 370px) and (max-width:450px) {
@@ -59,6 +65,9 @@
         font-size: 9pt;
         text-align: center;
     }
+    .coachheadshot {
+        height: 110px; 
+    }
 }
 @media screen and (max-width: 369px){
     .main-column {
@@ -80,5 +89,8 @@
     #info-content h5{
         font-size: 8pt;
         text-align: center;
+    }
+    .coachheadshot {
+        height: 105px; 
     }
 }
