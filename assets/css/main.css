@@ -1,5 +1,15 @@
 body {font-family: 'Garamond', sans-serif;}
 * {box-sizing: border-box;}
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
 .headerImage {
     display: block;
     margin-left: auto;
@@ -12,6 +22,8 @@ body {font-family: 'Garamond', sans-serif;}
     display:flex;
     justify-content: center;
     font-size: 1.8em;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 .container {
     text-align: center;
@@ -43,6 +55,8 @@ body {font-family: 'Garamond', sans-serif;}
 #header p{
 	font-family: 'Playfair Display', serif;
     font-size: 12pt;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 #header hr{
     display: block;
@@ -90,10 +104,20 @@ body {font-family: 'Garamond', sans-serif;}
     text-align:center;
     font-size: 16pt;
     font-family: 'Garamond', sans-serif;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+#info-content h5{
+    text-align:center;
+    font-size: 9pt;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 #info-content h3{
     text-align:center;
     font-size: 12pt;
+    margin-top:5px;
+    margin-bottom:5px;
 }
 #info-content h2{
     text-align:center;
@@ -122,5 +146,5 @@ body {font-family: 'Garamond', sans-serif;}
     border-bottom: solid;
 }
 .year-banner{
-    background-color:black
+    background-color:rgb(246,238,235)
 }

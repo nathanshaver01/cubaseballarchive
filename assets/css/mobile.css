@@ -11,6 +11,9 @@
     .headerImage{
         max-height:200px;
     }
+    #info-content h5{
+        font-size: 10pt;
+    }
 }
 @media screen and (min-width: 451px) and (max-width:500px) {
     .main-column {
@@ -28,6 +31,9 @@
     }
     .headerImage{
         max-height:170px;
+    }
+    #info-content h5{
+        font-size: 10pt;
     }
 }
 @media screen and (min-width: 370px) and (max-width:450px) {
@@ -47,6 +53,9 @@
     #info-content h1{
         font-size: 12pt;
     }
+    #info-content h5{
+        font-size: 9pt;
+    }
 }
 @media screen and (max-width: 369px){
     .main-column {
@@ -64,5 +73,8 @@
     }
     #info-content h1{
         font-size: 10pt;
+    }
+    #info-content h5{
+        font-size: 8pt;
     }
 }
