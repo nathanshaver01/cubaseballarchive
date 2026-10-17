@@ -5,3 +5,104 @@
     image-rendering: auto;
     max-width: 500px;
 }
+#header h1{
+	font-family: Georgia, serif;
+    display:flex;
+    justify-content: center;
+    font-size: 1.8em;
+}
+.container {
+    text-align: center;
+    margin: 0 auto;
+}
+#header nav{
+    width:100%;
+    height: 30px;
+    background: rgb(255,255,255);
+    position: relative;
+    display:block;
+    margin-bottom:5px;
+}
+#header nav a{
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+    white-space: nowrap;
+    margin: 1.5%;
+}
+#header nav a:hover{
+    color: rgb(207, 184, 124, 1);
+    text-decoration: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+#header p{
+	font-family: 'Playfiar Display', serif;
+    font-size: 12pt;
+}
+#header hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #979797;
+    margin: 1em 0;
+    padding: 0;
+}
+#main-background{
+    background: rgb(246,238,235);
+}
+#info-content {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height:auto;
+    overflow:hidden;
+    -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .25);
+    box-shadow: 6px 0 5px -4px rgba(0, 0, 0, 0.2), -6px 0 5px -4px rgba(0, 0, 0, 0.2);
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.main-column {
+  float: left;
+  width: 32.5%;
+  padding: 5px;
+}
+#info-content hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #979797;
+    margin: 1em 0;
+    padding: 0;
+}
+#info-content h3{
+    text-align:center;
+    font-size: 12pt;
+}
+#info-content a{
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+    white-space: nowrap;
+}
+#info-content a:hover{
+    color: rgb(207, 184, 124, 1);
+    text-decoration: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
