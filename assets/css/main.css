@@ -235,6 +235,9 @@ th:hover{
 #table-roster td{
     text-align:center;
 }
+.box-score td:nth-child(2){
+    text-align: right;
+}
 td:hover{
     background-color:#f6f5f5;
 }
@@ -246,9 +249,15 @@ td:hover{
     width: 100%;
     border-collapse: collapse;
 }
+.box-score-detailed{
+    margin: 0 auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+
 .main-columnbox {
     float: left;
-    width: 33.33%;
+    width: 50%;
     padding: 10px;
 }
 .main-columnbox i{
@@ -258,4 +267,16 @@ td:hover{
     text-align:left;
     font-weight: bold;
     font-size: 14pt;
+}
+.bat-stat{
+    width:8%;
+    text-align:center;
+}
+.main-stat{
+    width:50px;
+    text-align:left;
+}
+.last-stat{
+    width:8%;
+    text-align:right;
 }

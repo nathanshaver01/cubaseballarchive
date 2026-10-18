@@ -2,6 +2,9 @@
     #header h1{
         text-align: center;
     }
+    .main-columnbox {
+        width: 100%;
+    }
 }
 @media screen and (min-width: 501px) and (max-width: 600px){
     #header h1{
@@ -18,10 +21,19 @@
     .coachheadshot {
         height: 130px; 
     }
+    .main-columnbox {
+        width: 100%;
+    }
 }
 @media screen and (min-width: 451px) and (max-width:500px) {
     .main-column {
         width: 100%;
+    }
+    .main-columnbox {
+        width: 100%;
+    }
+    .main-columnbox i{
+        font-size:8pt
     }
     .headerImage {
         max-width: 100%;
@@ -43,10 +55,22 @@
     .coachheadshot {
         height: 120px; 
     }
+    .box-title{
+        font-size: 12pt;
+    }
+    .box-score td{
+        font-size:10pt
+    }
 }
 @media screen and (min-width: 370px) and (max-width:450px) {
     .main-column {
         width: 100%;
+    }
+    .main-columnbox {
+        width: 100%;
+    }
+    .main-columnbox i{
+        font-size:8pt
     }
     .headerImage{
         max-height:120px;
@@ -68,10 +92,22 @@
     .coachheadshot {
         height: 110px; 
     }
+    .box-title{
+        font-size: 12pt;
+    }
+    .box-score td{
+        font-size:10pt
+    }
 }
 @media screen and (max-width: 369px){
     .main-column {
         width: 100%;
+    }
+    .main-columnbox {
+        width: 100%;
+    }
+    .main-columnbox i{
+        font-size:8pt
     }
     #header h1{
         font-size: 12pt;
@@ -92,5 +128,11 @@
     }
     .coachheadshot {
         height: 105px; 
+    }
+    .box-title{
+        font-size: 12pt;
+    }
+    .box-score td{
+        font-size:10pt
     }
 }
