@@ -218,6 +218,7 @@ img{
 #table-roster{
     margin: 0 auto;
     width: 100%;
+    border-collapse: collapse;
 }
 th:hover{
     background-color:#f6f5f5;
@@ -229,11 +230,32 @@ th:hover{
     text-align:center;
 }
 #table-roster td:nth-child(1) {
-  text-align: left;
+    text-align: left;
 }
 #table-roster td{
     text-align:center;
 }
 td:hover{
     background-color:#f6f5f5;
+}
+#table-roster tr:first-of-type {
+    border-bottom: 1px solid rgb(133, 133, 133);
+}
+.box-score{
+    margin: 0 auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+.main-columnbox {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+.main-columnbox i{
+    font-size:9pt
+}
+.box-title{
+    text-align:left;
+    font-weight: bold;
+    font-size: 14pt;
 }
